@@ -2,6 +2,7 @@
 
 Funcionalidade: Calculo de subtracao e soma
 
+@tag1
 Cenario: Fazer subtracao
 Dado que tenha 10 laranjas
 Quando como 2 laranjas

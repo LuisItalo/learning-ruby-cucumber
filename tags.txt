@@ -1,0 +1,10 @@
+Utiliza o @<nome da tag> para criar a tag
+
+Um cenario ou uma funcionalidade pode conter varias tags
+
+COMO CHAMA A tag
+
+cucumber --tags @important  
+cucumber --tags @important,@second
+cucumber --tags @cucumber,~@second  //~ é para nao rodar a tag
+cucumber -t @important,@second,@third //t é um atalho
