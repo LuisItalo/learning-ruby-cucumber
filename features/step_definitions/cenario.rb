@@ -15,3 +15,15 @@ Entao('vejo quantas laranjas sobraram') do
     puts @resultado
     expect(@resultado).to eq 8
 end
+
+Quando('compro {int} laranjas') do |valor4|
+    puts valor4
+    @comprar = valor4
+    @compra_total = @laranjas + @comprar
+    end
+    
+    Entao('vejo quantas laranjas tenho') do
+        puts @compra_total
+        expect(@compra_total).to eq 15
+    end
+    
